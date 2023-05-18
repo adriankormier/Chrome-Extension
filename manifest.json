@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Extensions of the World",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "src/poopicon.jpg"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
